@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+//input : 2 files
+//output : the position and value of the firste difrent byte
+long main(int argc, char **argv) 
+{
+  	FILE *file = fopen("a.txt", "r");
+	char word[100];
+	
+	if (file == NULL) 
+	{
+	  printf("file error\n");
+	  return 0;
+	}
+	bytes_read = fread(word, sizeof(word), 1,file);
+	printf("len of word=%d, word=%s", strlen(word), word);
+	
+//print to a text file
+	
+	bcmp o.tet b.txt > ab.diff
+	return 0;
+
+}
+
+
+

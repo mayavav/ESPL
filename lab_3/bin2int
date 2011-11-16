@@ -1,0 +1,28 @@
+#include <math.h>
+
+//input : bin number
+//output : integer number
+
+
+double bin2int ( integer bin )
+{
+	double binary = (double) bin;
+	double i = 0;
+	double integer = 0;
+	
+	while (bin >= 1)
+	{
+		if(binary%10 == 1)
+		 
+		{
+			integer = integer + (double pow( 2, i));
+
+		}
+		
+		binary = (binary/10);
+		i = i+1;
+	}
+	
+	return integer;
+}
+
